@@ -7,8 +7,8 @@ import org.scalatest.prop.Checkers
 import org.scalatest.{Matchers, WordSpec}
 
 class twoSpec extends BaseSpec {
-  private val smallPosFrom0: Gen[Int] = Gen.choose(0, 39)
-  private val smallPosFrom2: Gen[Int] = Gen.choose(2, 45)
+  private val smallPosFrom0: Gen[Int] = Gen.choose(0, 38)
+  private val smallPosFrom2: Gen[Int] = Gen.choose(2, 40)
 
   " For a Fibonacci number " should {
     " if and only if one or both of (5*n2 + 4) or (5*n2 – 4) is a perfect square" in {

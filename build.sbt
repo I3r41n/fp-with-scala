@@ -1,5 +1,7 @@
 organization := "com.santos.bruno"
 
+scalaVersion := "2.11.0"
+
 name := "fpwithscala"
 
 version := "0.1-SNAPSHOT"
