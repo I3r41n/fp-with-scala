@@ -1,5 +1,7 @@
 package fpinscala.datastructures
 
+import scala.annotation.tailrec
+
 sealed trait List[+A] // `List` data type, parameterized on a type, `A`
 case object Nil extends List[Nothing] // A `List` data constructor representing the empty list
 /* Another data constructor, representing nonempty lists. Note that `tail` is another `List[A]`,
@@ -55,7 +57,6 @@ def sum(ints: List[Int]): Int = ints match { // A function that uses pattern mat
     case Cons(_, a) => a
   }
 
-
   def setHead[A](l: List[A], h: A): List[A] = Cons(h , tail(l))
 
   def drop[A](l: List[A], n: Int): List[A] = n match {
@@ -63,13 +64,29 @@ def sum(ints: List[Int]): Int = ints match { // A function that uses pattern mat
     case _ => drop(tail(l), n - 1)
   }
 
-  def dropWhile[A](l: List[A], f: A => Boolean): List[A] = sys.error("todo")
+  def dropWhile[A](l: List[A], f: A => Boolean): List[A] = l match {
+    case Cons(h, t) if f(h) => dropWhile(t, f)
+    case _ => l
+  }
 
   def init[A](l: List[A]): List[A] = sys.error("todo")
 
-  def length[A](l: List[A]): Int = sys.error("todo")
+  def length[A](l: List[A]): Int = {
+    foldRight(l , 0 ) { (el, acum) => el match {
+      case Nil => acum
+      case _ => acum + 1
+    }}
+  }
 
-  def foldLeft[A,B](l: List[A], z: B)(f: (B, A) => B): B = sys.error("todo")
+  @tailrec
+  def foldLeft[A,B](l: List[A], z: B)(f: (B, A) => B): B = l match {
+    case Nil => z
+    case Cons(h, t) => foldLeft(t, f(z, h))(f)
+  }
+
+  def sumFoldLeft(l: List[Int]): Int = foldLeft(l, 0)(_ + _)
+
+  def productFoldLeft(l: List[Double]): Double = foldLeft(l, 1.0)( _ * _)
 
   def map[A,B](l: List[A])(f: A => B): List[B] = sys.error("todo")
 }

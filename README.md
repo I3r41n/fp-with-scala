@@ -3,7 +3,7 @@ Repo to exercise the Functional Programming with Scala book
 
 Exercises, hints, and answers are all available at (https://github.com/fpinscala/fpinscala).
 
-Current page: 35 (56). 
+Current page: 41 (62). 
 
 
 Scala check:
