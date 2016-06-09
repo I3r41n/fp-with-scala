@@ -149,10 +149,53 @@ class threeSpec extends BaseSpec {
       val prop = forAll { (l: MyList[Double]) =>
         val diff = product(l) - productFoldLeft(l)
 
-        diff < 1E-12
+        diff < 1E-10
       }
 
       check(prop)
+    }
+  }
+
+  "lengthFoldLeft "should {
+    "return the same result as length for the same input" in {
+      val prop = forAll { (l: MyList[Int]) =>
+        val diff = MyList.length(l) - lengthFoldLeft(l)
+
+        diff == 0
+      }
+
+      check(prop)
+    }
+  }
+
+  "reverse" should {
+    "be same applied to an append as appending the reverse of two lists " in {
+      val prop = forAll { (l: MyList[Int], m: MyList[Int]) =>
+        reverse(append(l, m)) == append(reverse(m), reverse(l))
+      }
+
+      check(prop)
+    }
+
+    "return the same list if applied twice" in {
+      val prop = forAll { (l: MyList[Int], m: MyList[Int]) =>
+        reverse(reverse(l)) == l
+      }
+
+      check(prop)
+      }
+
+    "return List(3,2,1) for the List(1,2,3)" in {
+      val a = Cons(1, Cons(2, Cons(3, Nil)))
+      val res = Cons(3, Cons(2, Cons(1, Nil)))
+
+      reverse(a) should be(res)
+    }
+  }
+
+  "foldLeftFromLR " should {
+    "return the same result as foldLeft for the same input" in {
+
     }
   }
 

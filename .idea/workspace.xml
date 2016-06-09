@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="39c9d069-7fb3-4bbe-b032-889851751173" name="Default" comment="First attempt at scala check">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/fpinscala/datastructures/List.scala" afterPath="$PROJECT_DIR$/src/main/scala/fpinscala/datastructures/List.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/scala/com/exercises/chapter/threeSpec.scala" afterPath="$PROJECT_DIR$/src/test/scala/com/exercises/chapter/threeSpec.scala" />
     </list>
@@ -89,9 +88,7 @@
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="225">
                   <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-                  <folding>
-                    <element signature="e#31#64#0" expanded="false" />
-                  </folding>
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -99,8 +96,8 @@
           <file leaf-file-name="threeSpec.scala" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/test/scala/com/exercises/chapter/threeSpec.scala">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="369">
-                  <caret line="150" column="0" selection-start-line="150" selection-start-column="0" selection-end-line="150" selection-end-column="0" />
+                <state relative-caret-position="950">
+                  <caret line="197" column="0" selection-start-line="197" selection-start-column="0" selection-end-line="197" selection-end-column="0" />
                   <folding>
                     <element signature="e#31#69#0" expanded="true" />
                   </folding>
@@ -113,9 +110,7 @@
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="75">
                   <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-                  <folding>
-                    <element signature="e#31#72#0" expanded="false" />
-                  </folding>
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -124,21 +119,21 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="Gen.scala" pinned="false" current-in-tab="true">
+          <file leaf-file-name="Gen.scala" pinned="false" current-in-tab="false">
             <entry file="jar://$USER_HOME$/.ivy2/cache/org.scalacheck/scalacheck_2.10/srcs/scalacheck_2.10-1.12.5-sources.jar!/org/scalacheck/Gen.scala">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="162">
+                <state relative-caret-position="-1053">
                   <caret line="319" column="6" selection-start-line="319" selection-start-column="6" selection-end-line="319" selection-end-column="6" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="List.scala" pinned="false" current-in-tab="false">
+          <file leaf-file-name="List.scala" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/scala/fpinscala/datastructures/List.scala">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="475">
-                  <caret line="51" column="13" selection-start-line="51" selection-start-column="4" selection-end-line="51" selection-end-column="13" />
+                <state relative-caret-position="965">
+                  <caret line="97" column="20" selection-start-line="97" selection-start-column="6" selection-end-line="97" selection-end-column="20" />
                   <folding />
                 </state>
               </provider>
@@ -172,9 +167,9 @@
         <option value="$PROJECT_DIR$/src/test/scala/com/exercises/chapter/BaseSpec.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/List.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/exercises/chapter/three.scala" />
+        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/scala/fpinscala/datastructures/List.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/com/exercises/chapter/threeSpec.scala" />
-        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -186,10 +181,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="4" />
-    <option name="y" value="23" />
-    <option name="width" value="1436" />
-    <option name="height" value="877" />
+    <option name="x" value="-535" />
+    <option name="y" value="-1417" />
+    <option name="width" value="2560" />
+    <option name="height" value="1417" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -216,6 +211,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -351,7 +347,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -378,37 +373,7 @@
       <recent name="org.scalatest.FunSuite" />
     </key>
   </component>
-  <component name="RunManager" selected="ScalaTest.threeSpec.productFoldLeft should return the same result as product for the same input">
-    <configuration default="false" name="threeSpec.List length should return 0 if the list is empty&#10;List length should properly calculate the length of the list" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="fp-with-scala" />
-      <setting name="path" value="com.exercises.chapter.threeSpec" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="List length should return 0 if the list is empty&#10;List length should properly calculate the length of the list" />
-      <setting name="testKind" value="Test name" />
-      <setting name="showProgressMessages" value="true" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="threeSpec.sumFoldLeft should return the same result as sum for the same input" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="fp-with-scala" />
-      <setting name="path" value="com.exercises.chapter.threeSpec" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="sumFoldLeft should return the same result as sum for the same input" />
-      <setting name="testKind" value="Test name" />
-      <setting name="showProgressMessages" value="true" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="ScalaTest.threeSpec.reverse should be same applied to an append as appending the reverse of two lists&#10;reverse should return the same list if applied twice&#10;reverse should return List(3,2,1) for the List(1,2,3)">
     <configuration default="false" name="threeSpec" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="fp-with-scala" />
@@ -424,7 +389,7 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="threeSpec.productFoldLeft should return the same result as product for the same input" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+    <configuration default="false" name="threeSpec.lengthFoldLeft should return the same result as length for the same input" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="fp-with-scala" />
       <setting name="path" value="com.exercises.chapter.threeSpec" />
@@ -433,13 +398,13 @@
       <setting name="params" value="" />
       <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
       <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="productFoldLeft should return the same result as product for the same input" />
+      <setting name="testName" value="lengthFoldLeft should return the same result as length for the same input" />
       <setting name="testKind" value="Test name" />
       <setting name="showProgressMessages" value="true" />
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="threeSpec.productFoldLeft should failing ?" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+    <configuration default="false" name="threeSpec.reverse should be same applied to an append as appending the reverse of two lists" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="fp-with-scala" />
       <setting name="path" value="com.exercises.chapter.threeSpec" />
@@ -448,7 +413,37 @@
       <setting name="params" value="" />
       <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
       <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="productFoldLeft should failing ?" />
+      <setting name="testName" value="reverse should be same applied to an append as appending the reverse of two lists" />
+      <setting name="testKind" value="Test name" />
+      <setting name="showProgressMessages" value="true" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="threeSpec.reverse should return List(3,2,1) for the List(1,2,3)" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="fp-with-scala" />
+      <setting name="path" value="com.exercises.chapter.threeSpec" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="reverse should return List(3,2,1) for the List(1,2,3)" />
+      <setting name="testKind" value="Test name" />
+      <setting name="showProgressMessages" value="true" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="threeSpec.reverse should be same applied to an append as appending the reverse of two lists&#10;reverse should return the same list if applied twice&#10;reverse should return List(3,2,1) for the List(1,2,3)" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="fp-with-scala" />
+      <setting name="path" value="com.exercises.chapter.threeSpec" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="reverse should be same applied to an append as appending the reverse of two lists&#10;reverse should return the same list if applied twice&#10;reverse should return List(3,2,1) for the List(1,2,3)" />
       <setting name="testKind" value="Test name" />
       <setting name="showProgressMessages" value="true" />
       <envs />
@@ -747,19 +742,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="ScalaTest.threeSpec.List length should return 0 if the list is empty&#10;List length should properly calculate the length of the list" />
-      <item index="1" class="java.lang.String" itemvalue="ScalaTest.threeSpec.sumFoldLeft should return the same result as sum for the same input" />
-      <item index="2" class="java.lang.String" itemvalue="ScalaTest.threeSpec" />
-      <item index="3" class="java.lang.String" itemvalue="ScalaTest.threeSpec.productFoldLeft should return the same result as product for the same input" />
-      <item index="4" class="java.lang.String" itemvalue="ScalaTest.threeSpec.productFoldLeft should failing ?" />
+      <item index="0" class="java.lang.String" itemvalue="ScalaTest.threeSpec" />
+      <item index="1" class="java.lang.String" itemvalue="ScalaTest.threeSpec.lengthFoldLeft should return the same result as length for the same input" />
+      <item index="2" class="java.lang.String" itemvalue="ScalaTest.threeSpec.reverse should be same applied to an append as appending the reverse of two lists" />
+      <item index="3" class="java.lang.String" itemvalue="ScalaTest.threeSpec.reverse should return List(3,2,1) for the List(1,2,3)" />
+      <item index="4" class="java.lang.String" itemvalue="ScalaTest.threeSpec.reverse should be same applied to an append as appending the reverse of two lists&#10;reverse should return the same list if applied twice&#10;reverse should return List(3,2,1) for the List(1,2,3)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="ScalaTest.threeSpec.productFoldLeft should return the same result as product for the same input" />
-        <item index="1" class="java.lang.String" itemvalue="ScalaTest.threeSpec.productFoldLeft should failing ?" />
-        <item index="2" class="java.lang.String" itemvalue="ScalaTest.threeSpec" />
-        <item index="3" class="java.lang.String" itemvalue="ScalaTest.threeSpec.sumFoldLeft should return the same result as sum for the same input" />
-        <item index="4" class="java.lang.String" itemvalue="ScalaTest.threeSpec.List length should return 0 if the list is empty&#10;List length should properly calculate the length of the list" />
+        <item index="0" class="java.lang.String" itemvalue="ScalaTest.threeSpec.reverse should be same applied to an append as appending the reverse of two lists&#10;reverse should return the same list if applied twice&#10;reverse should return List(3,2,1) for the List(1,2,3)" />
+        <item index="1" class="java.lang.String" itemvalue="ScalaTest.threeSpec.reverse should return List(3,2,1) for the List(1,2,3)" />
+        <item index="2" class="java.lang.String" itemvalue="ScalaTest.threeSpec.reverse should be same applied to an append as appending the reverse of two lists" />
+        <item index="3" class="java.lang.String" itemvalue="ScalaTest.threeSpec" />
+        <item index="4" class="java.lang.String" itemvalue="ScalaTest.threeSpec.lengthFoldLeft should return the same result as length for the same input" />
       </list>
     </recent_temporary>
   </component>
@@ -833,39 +828,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="threeSpec_productFoldLeft_should_return_the_same_result_as_product_for_the_same_input - 2016.06.07 at 11h 09m 29s.xml">
-      <configuration name="threeSpec.productFoldLeft should return the same result as product for the same input" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="threeSpec - 2016.06.09 at 09h 48m 38s.xml">
+      <configuration name="threeSpec" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="threeSpec_productFoldLeft_should_return_the_same_result_as_product_for_the_same_input - 2016.06.07 at 11h 10m 17s.xml">
-      <configuration name="threeSpec.productFoldLeft should return the same result as product for the same input" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="threeSpec - 2016.06.09 at 09h 49m 42s.xml">
+      <configuration name="threeSpec" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="threeSpec_productFoldLeft_should_return_the_same_result_as_product_for_the_same_input - 2016.06.07 at 11h 10m 38s.xml">
-      <configuration name="threeSpec.productFoldLeft should return the same result as product for the same input" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="threeSpec - 2016.06.09 at 09h 53m 38s.xml">
+      <configuration name="threeSpec" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="threeSpec_productFoldLeft_should_return_the_same_result_as_product_for_the_same_input - 2016.06.07 at 11h 10m 55s.xml">
-      <configuration name="threeSpec.productFoldLeft should return the same result as product for the same input" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="threeSpec_reverse_should_be_same_applied_to_an_append_as_appending_the_reverse_of_two_lists - 2016.06.09 at 11h 50m 14s.xml">
+      <configuration name="threeSpec.reverse should be same applied to an append as appending the reverse of two lists" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="threeSpec_productFoldLeft_should_return_the_same_result_as_product_for_the_same_input - 2016.06.07 at 11h 11m 07s.xml">
-      <configuration name="threeSpec.productFoldLeft should return the same result as product for the same input" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="threeSpec_reverse_should_be_same_applied_to_an_append_as_appending_the_reverse_of_two_lists_reverse_should_return_the_same_list_if_applied_twice_reverse_should_return_List(3,2,1)_for_the_List(1,2,3) - 2016.06.09 at 12h 10m 16s.xml">
+      <configuration name="threeSpec.reverse should be same applied to an append as appending the reverse of two lists&#10;reverse should return the same list if applied twice&#10;reverse should return List(3,2,1) for the List(1,2,3)" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="threeSpec_productFoldLeft_should_return_the_same_result_as_product_for_the_same_input - 2016.06.07 at 11h 11m 19s.xml">
-      <configuration name="threeSpec.productFoldLeft should return the same result as product for the same input" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="threeSpec_reverse_should_return_List(3,2,1)_for_the_List(1,2,3) - 2016.06.09 at 11h 53m 20s.xml">
+      <configuration name="threeSpec.reverse should return List(3,2,1) for the List(1,2,3)" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="threeSpec_productFoldLeft_should_return_the_same_result_as_product_for_the_same_input - 2016.06.07 at 11h 11m 21s.xml">
-      <configuration name="threeSpec.productFoldLeft should return the same result as product for the same input" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="threeSpec_reverse_should_return_List(3,2,1)_for_the_List(1,2,3) - 2016.06.09 at 11h 54m 28s.xml">
+      <configuration name="threeSpec.reverse should return List(3,2,1) for the List(1,2,3)" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="threeSpec_productFoldLeft_should_return_the_same_result_as_product_for_the_same_input - 2016.06.07 at 11h 11m 31s.xml">
-      <configuration name="threeSpec.productFoldLeft should return the same result as product for the same input" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="threeSpec_reverse_should_return_List(3,2,1)_for_the_List(1,2,3) - 2016.06.09 at 12h 07m 57s.xml">
+      <configuration name="threeSpec.reverse should return List(3,2,1) for the List(1,2,3)" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="threeSpec_productFoldLeft_should_return_the_same_result_as_product_for_the_same_input - 2016.06.07 at 11h 11m 40s.xml">
-      <configuration name="threeSpec.productFoldLeft should return the same result as product for the same input" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="threeSpec_reverse_should_return_List(3,2,1)_for_the_List(1,2,3) - 2016.06.09 at 12h 08m 59s.xml">
+      <configuration name="threeSpec.reverse should return List(3,2,1) for the List(1,2,3)" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="threeSpec_productFoldLeft_should_return_the_same_result_as_product_for_the_same_input - 2016.06.07 at 11h 12m 09s.xml">
-      <configuration name="threeSpec.productFoldLeft should return the same result as product for the same input" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="threeSpec_reverse_should_return_List(3,2,1)_for_the_List(1,2,3) - 2016.06.09 at 12h 10m 10s.xml">
+      <configuration name="threeSpec.reverse should return List(3,2,1) for the List(1,2,3)" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="4" y="23" width="1436" height="877" extended-state="6" />
+    <frame x="-535" y="-1417" width="2560" height="1417" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -877,11 +872,11 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19442351" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32738853" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19396226" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32981133" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0021520804" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0011914218" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -921,17 +916,11 @@
           <properties />
           <option name="timeStamp" value="13" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="scala-line">
-          <url>file://$PROJECT_DIR$/src/main/scala/fpinscala/datastructures/List.scala</url>
-          <line>43</line>
-          <properties />
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="17" />
+      <option name="time" value="19" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -945,9 +934,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-          <folding>
-            <element signature="e#31#72#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -974,9 +961,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-          <folding>
-            <element signature="e#31#64#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -985,9 +970,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#31#72#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1096,19 +1079,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding>
-            <element signature="e#31#72#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/exercises/chapter/three.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding>
-            <element signature="e#31#64#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1131,26 +1102,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/fpinscala/datastructures/List.scala">
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scalacheck/scalacheck_2.10/srcs/scalacheck_2.10-1.12.5-sources.jar!/org/scalacheck/Gen.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="51" column="13" selection-start-line="51" selection-start-column="4" selection-end-line="51" selection-end-column="13" />
+        <state relative-caret-position="-1053">
+          <caret line="319" column="6" selection-start-line="319" selection-start-column="6" selection-end-line="319" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scalacheck/scalacheck_2.10/srcs/scalacheck_2.10-1.12.5-sources.jar!/org/scalacheck/Gen.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/exercises/chapter/three.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="319" column="6" selection-start-line="319" selection-start-column="6" selection-end-line="319" selection-end-column="6" />
+        <state relative-caret-position="225">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/fpinscala/datastructures/List.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="965">
+          <caret line="97" column="20" selection-start-line="97" selection-start-column="6" selection-end-line="97" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/com/exercises/chapter/threeSpec.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="150" column="0" selection-start-line="150" selection-start-column="0" selection-end-line="150" selection-end-column="0" />
+        <state relative-caret-position="950">
+          <caret line="197" column="0" selection-start-line="197" selection-start-column="0" selection-end-line="197" selection-end-column="0" />
           <folding>
             <element signature="e#31#69#0" expanded="true" />
           </folding>

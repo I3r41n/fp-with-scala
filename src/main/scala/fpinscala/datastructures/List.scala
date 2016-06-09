@@ -88,5 +88,12 @@ def sum(ints: List[Int]): Int = ints match { // A function that uses pattern mat
 
   def productFoldLeft(l: List[Double]): Double = foldLeft(l, 1.0)( _ * _)
 
+  def lengthFoldLeft[A](l: List[A]): Int = foldLeft(l, 0)((z:Int, a:A) =>  z + 1)
+
+  def reverse[A](l: List[A]) : List[A] = foldLeft(l, Nil: List[A])((a, b) =>
+    Cons(b, a))
+
   def map[A,B](l: List[A])(f: A => B): List[B] = sys.error("todo")
+
+  def foldLeftFromLR[A,B](l: List[A], z: B)(f: (B, A) => B): B = l
 }
