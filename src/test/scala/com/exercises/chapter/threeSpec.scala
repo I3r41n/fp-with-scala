@@ -5,10 +5,14 @@ import fpinscala.datastructures.{List => MyList, _}
 import org.scalacheck.Prop._
 import org.scalacheck.{Arbitrary, Gen}
 
+import scala.annotation.tailrec
+
 class threeSpec extends BaseSpec {
   private val myNilGen: Gen[MyList[Nothing]] = Gen.delay(Nil)
 
   implicit def myDoubleArbitrary = Arbitrary(Gen.chooseNum(-100.00, 100.00))
+  //implicit def myIntArbitrary = Arbitrary(Gen.chooseNum(-100, 100))
+
   implicit def myListArbitrary[T: Arbitrary]: Arbitrary[MyList[T]] = Arbitrary[MyList[T]](Gen.oneOf(myNilGen, myConsGen[T]))
 
   private def myConsGen[T: Arbitrary]: Gen[MyList[T]] = for {
@@ -199,5 +203,56 @@ class threeSpec extends BaseSpec {
     }
   }
 
+  "addOne" should {
+    "return a new list of integers with each original added one plus " in {
+      @tailrec
+      def aux(orig: MyList[Int], sum: MyList[Int], res: Boolean) : Boolean = sum match {
+        case Nil => res
+        case Cons(h, t) => aux (tail(orig), t, res && (h == head(orig) + 1))
+      }
 
+      val prop = forAll { (l: MyList[Int]) =>
+        aux(l, addOne(l), true)
+      }
+
+      check(prop)
+    }
+
+    "the sum of the new list should be equal to the original plus the original length" in {
+      val prop = forAll { (l: MyList[Int]) =>
+        val added: Int = sum(addOne(l))
+        val total: Int = sum(l) + MyList.length(l)
+
+        added == total
+      }
+
+      check(prop)
+    }
+  }
+
+  "doubleToString" should {
+    "reversed to the original List" in {
+      val prop = forAll { (l: MyList[Double]) =>
+        val d: MyList[String] = doubleToString(l)
+        val res: MyList[Double] =
+          foldLeft(reverse(d), Nil: MyList[Double])((z, a) => Cons[Double](a.toDouble, z))
+
+        res == l
+      }
+
+      check(prop)
+    }
+  }
+
+  "filter" should {
+    "remove all odd members of the list" in {
+      val prop = forAll { (l: MyList[Int]) =>
+        val res: MyList[Int] = MyList.filter(l)(_ % 2 != 0)
+
+        sum(res) % 2 == 0
+      }
+
+      check(prop)
+    }
+  }
 }
